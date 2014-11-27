@@ -12,6 +12,29 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -115,12 +138,11 @@ a:focus {
     font-family:'Open Sans', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 14px 48px 14px 48px;
+    padding: 14px 30px 14px 30px;
     text-decoration: none; 
     display:inline-block;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
     font-weight:bold; color: #000;
-    background-color: #a8d7dc ; 
+    background-color: #9ad2db ; 
     background-image: linear-gradient(to bottom, #9ad2db, #daf1f2);
 }
 
@@ -130,53 +152,31 @@ a:focus {
     color: #fff;
 }
 
-h1 {
+.intro{
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     color:#9ad2db;
+    font-size: 40px;
 }
 
 .sub-head{ 
-    color: #c2c2c2;
+    color: #fff;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 3em;
+
+}
+
+.box-one {
+	background-color:#fff
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-.subh1 {
-	max-width: 20em;
-	margin: 0 auto;
-}
-
-.collab,
-.fin-deliver,
-.work-faster {
-	background-color: #000;
-	color: #fff;
-}
-
-.collab h2,
-.fin-deliver h2,
-.work-faster h2 {
-	margin-top: 1.25em;
-}
-
-.collab p,
-.fin-deliver p,
-.work-faster p {
-	margin-top: -.75em;
-}
 
 
 .footer {
@@ -214,16 +214,14 @@ h1 {
 @media only screen and (min-width: 25em) {
     
     .nav li {
-     display: inline-block;
-  }
+        display: inline-block;
+    }
 
-  .nav {
-     text-align: center;
-     padding: 0;
-  }
-   
-}
-
+    .nav {
+        text-align: center;
+        padding: 0;
+    }
+    
 @media only screen and (min-width: 38em) {
     .nav{
         text-align: right;
@@ -234,24 +232,48 @@ h1 {
       bottom: 0;
       position:  absolute;
       background-color: transparent;
-    margin-bottom: 10em;
-      
+      margin-bottom: 4.5em;
+      min-height: 20rem;
+      }
+    
+      .intro{
+        max-width: 25rem;
+        font-size: 45px;
+    }
+    
+    .sub-head{
+        max-width: 25rem;
+        text-align: center;
+        font-size: 18px;
+    }
   }
 
 @media only screen and (min-width: 60em) {
       
-    html {
-        font-size: 110%;
-    }
     .nav-footer {
         text-align: right;
     }
 	
+    .intro-wrap {
+        bottom: 0;
+        position:  absolute;
+        background-color: transparent;
+        margin-bottom: 15em;
+    }
+    
+    .intro{
+        max-width: 38rem;
+        font-size: 55px;
+        
+    }
+    
+    .sub-head{
+        max-width: 38rem;
+        font-size: 28px;
+    }
 }
 @media only screen and (min-width:90em) {
-    html {
-        font-size: 120%;
-    }
+    
     .nav-footer {
         text-align: right;
     }
@@ -259,19 +281,53 @@ h1 {
     .copyright{
          text-align: left;
   }
+     .intro-wrap {
+        bottom: 0;
+        position:  absolute;
+        background-color: transparent;
+        margin-bottom: 19em;
+    }
+    
+    .intro{
+        max-width: 50rem;
+        font-size: 55px;
+        
+    }
+    
+    .sub-head{
+        max-width: 50rem;
+        font-size: 28px;
+    }
     
 }
 
 @media only screen and (min-width:120em) {
-    html {
-        font-size: 130%;
-    }
+ 
     .nav-footer {
         text-align: right;
     }
     
     .copyright{
          text-align: left;
-  }
+    }
+    
+     .intro-wrap {
+         bottom: 0;
+         position:  absolute;
+         background-color: transparent;
+         margin-bottom: 19em;
+    }
+    
+    .intro{
+        max-width: 60rem;
+        font-size: 80px;
+        
+    }
+    
+    .sub-head{
+        max-width: 60rem;
+        font-size: 40px;
+    }
+    
 
 }
