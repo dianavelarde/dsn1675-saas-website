@@ -315,7 +315,8 @@ a:focus {
         text-align: center;
     }
 }
-@media only screen and (min-width:90em) {
+
+    @media only screen and (min-width: 90em) {
     
     .nav-footer {
         text-align: right;
