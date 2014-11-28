@@ -79,7 +79,7 @@ html {
 .logo {
     margin: 0 2rem;
     align-items: center;
-    width: 100px;
+    width: 9em;
 }
 .header {
 	background-color:#737174;
@@ -220,6 +220,10 @@ a:focus {
   color: #fff;
 }
 
+.free-trial{
+    text-align: center;
+    margin-bottom: 1em;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -305,6 +309,10 @@ a:focus {
     
     .button {
     font-size: 40px;
+    }
+    
+    .welcome{
+        text-align: center;
     }
 }
 @media only screen and (min-width:90em) {
