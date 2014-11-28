@@ -190,6 +190,37 @@ a:focus {
 	width: 100%;
 }
 
+.footer {
+	background-color: #737174;
+	text-align: center;
+	color: #fff;
+}
+.nav-bottom {
+	padding: 0;
+	margin-top: 3em;
+	list-style-type: none;
+	text-align: center;
+    margin-top: 1em;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: .25em 0;
+    margin-top: -1em;
+}
+
+.nav-bottom a:hover,
+.nav-bottom a:focus,
+.nav-bottom a:active {
+  background-color: #9ad2db;
+  color: #fff;
+}
+
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
@@ -240,7 +271,13 @@ a:focus {
         width: 115%;
         margin-top: 1em;
     }
-  }
+    
+    .nav-bottom a,
+	.nav-bottom a:link,
+	.nav-bottom a:visited {
+  		text-align: left;
+  		margin: 1em %5;
+	}
 
 @media only screen and (min-width: 60em) {
       
