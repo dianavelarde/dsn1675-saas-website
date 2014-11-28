@@ -176,14 +176,18 @@ a:focus {
     color: #fff;
 }
 
-.box-one-text {
+.box-text {
     text-align: center;
+}
+
+.box-two {
+    background-color:#737174;
+    color: #fff;
 }
 
 .flex {
 	display: block;
 	width: 100%;
-    margin: auto;
 }
 
 @media only screen and (min-width: 25em) {
@@ -197,6 +201,12 @@ a:focus {
         padding: 0;
     }
     
+    .flex {
+	display: block;
+	width: 110%;
+        margin-top: 1em;
+    }
+}
 @media only screen and (min-width: 38em) {
     .nav{
         text-align: right;
@@ -225,10 +235,11 @@ a:focus {
     font-size: 30px;
     }
     
-    .keys {
-	display: inline-block;
-	margin: 0 10%;
-	}
+    .flex {
+        display: block;
+        width: 115%;
+        margin-top: 1em;
+    }
   }
 
 @media only screen and (min-width: 60em) {
