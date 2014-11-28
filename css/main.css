@@ -244,17 +244,17 @@ a:focus {
         margin-top: -1.5em;
     }
     
-      .intro-wrap {
+    .intro-wrap {
       bottom: 0;
       position:  absolute;
       background-color: transparent;
-      margin-bottom: 4.5em;
+      margin-bottom: 3.5em;
       min-height: 20rem;
       }
     
-      .intro{
-        max-width: 25rem;
-        font-size: 45px;
+    .intro{
+      max-width: 25rem;
+      font-size: 45px;
     }
     
     .sub-head{
