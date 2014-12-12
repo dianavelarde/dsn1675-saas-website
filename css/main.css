@@ -108,7 +108,7 @@ a:active {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited { 
-    background-color: #9ad2db;
+    background-color: #7dbfc6;
     
     color: #fff;
 }
@@ -133,33 +133,33 @@ a:focus {
 }
 
 .button {
-    border:1px solid #515153 ;
-    border-radius: 5px;
     font-family:'Open Sans', sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    padding: 14px 30px 14px 30px;
+    padding: 12px 15px 12px 15px;
     text-decoration: none; 
     display:inline-block;
     font-weight:bold; color: #000;
-    background-color: #9ad2db ; 
-    background-image: linear-gradient(to bottom, #9ad2db, #daf1f2);
+    background-color: #7dbfc6; 
+    color: #fff;
 }
 
 .button:hover{
     cursor: pointer;
-    background-image: linear-gradient(to bottom,#9d9d9d, #9d9d9d);
-    color: #fff;
+    background-color:#7dbfc6;
+    color: #000;
 }
 
 .intro{
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    color:#9ad2db;
+    color:#7dbfc6;
     font-size: 40px;
 }
 
+.welcome{
+    text-align: center;
+
+}
 .sub-head{ 
     color: #fff;
     font-size: 15px;
@@ -190,6 +190,23 @@ a:focus {
 	width: 100%;
 }
 
+.button-two {
+    font-family:'Open Sans', sans-serif;
+    padding: 12px 15px 12px 15px;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight:bold; color: #000;
+    background-color: #7dbfc6; 
+    color: #fff;
+}
+
+.button-two:hover{
+    cursor: pointer;
+    background-color:#7dbfc6;
+    color: #000;
+}
+
+
 .footer {
 	background-color: #737174;
 	text-align: center;
@@ -216,7 +233,7 @@ a:focus {
 .nav-bottom a:hover,
 .nav-bottom a:focus,
 .nav-bottom a:active {
-  background-color: #9ad2db;
+  background-color:#7dbfc6;
   color: #fff;
 }
 
@@ -289,7 +306,7 @@ a:focus {
     .nav .nav-current,
     .nav .nav-current:link,
     .nav .nav-current:visited {
-        background-color: #9ad2db;
+        background-color: #7dbfc6;
         color: #fff;
 }
 
@@ -317,13 +334,15 @@ a:focus {
         font-size: 28px;
     }
     
-    .button {
-    font-size: 40px;
-    }
     
     .welcome{
         text-align: center;
     }
+    
+    .button {
+    padding: 15px 20px 15px 20px;
+    }
+   
 }
 
     @media only screen and (min-width: 90em) {
@@ -353,7 +372,10 @@ a:focus {
         font-size: 28px;
     }
     
-}
+    .button {
+    padding: 20px 25px 20px 25px;
+    }
+    }
 
 @media only screen and (min-width:120em) {
  
@@ -383,5 +405,7 @@ a:focus {
         font-size: 40px;
     }
     
+    .button {
+    padding: 25px 30px 25px 30px;
 
 }
