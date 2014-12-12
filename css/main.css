@@ -331,7 +331,25 @@ a:focus {
     margin-top: -12rem
 }
 
+/*=======================colours========================*/
+
+.white-text{
+    color: #fff;
+}
+
+.grey-background{
+    background-color: #2d2a2b;
+}
+
+.white-background{
+    background-color: #fff;
     
+}
+
+.light-grey-bg{
+    background-color:#737174;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
