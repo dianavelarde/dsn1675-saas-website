@@ -331,6 +331,22 @@ a:focus {
     margin-top: -12rem
 }
 
+.button-three {
+    font-family:'Open Sans', sans-serif;
+    padding: 12px 15px 12px 15px;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight:bold; color: #000;
+    background-color:#737174; 
+    color: #fff;
+}
+
+.button-three:hover{
+    cursor: pointer;
+    background-color:#7dbfc6;
+    color: #000;
+}
+
 /*=======================colours========================*/
 
 .white-text{
