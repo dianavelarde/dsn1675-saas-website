@@ -263,6 +263,19 @@ a:focus {
     margin-left: -3rem;
 }
 
+.pricing-t {
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+}
+
+.flex-p {
+	display: block;
+	width: 70%;
+}
+
+.paypal {
+    margin-left: 3rem;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -279,6 +292,10 @@ a:focus {
 	display: block;
 	width: 110%;
         margin-top: 1em;
+    }
+    
+    .center{
+        margin-left: 0rem;
     }
 }
 @media only screen and (min-width: 38em) {
@@ -330,6 +347,15 @@ a:focus {
     .nav .nav-current:visited {
         background-color: #7dbfc6;
         color: #fff;
+    }
+    
+    .center{
+        margin-left: 7rem;
+    }
+    
+    .paypal {
+    margin-top: 5rem;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -364,7 +390,9 @@ a:focus {
     .button {
     padding: 15px 20px 15px 20px;
     }
-   
+     .center{
+        margin-left: 0rem;
+    }
 }
 
     @media only screen and (min-width: 90em) {
@@ -395,7 +423,11 @@ a:focus {
     }
     
     .button {
-    padding: 20px 25px 20px 25px;
+         padding: 20px 25px 20px 25px;
+    }
+         
+    .center{
+         margin-left: 0rem;
     }
     }
 
@@ -429,5 +461,9 @@ a:focus {
     
     .button {
     padding: 25px 30px 25px 30px;
+    }
+    .center{
+        margin-left: 0rem;
+    }
 
 }
