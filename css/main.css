@@ -277,6 +277,34 @@ a:focus {
     margin-left: 3rem;
 }
 
+/*=======================get-started========================*/
+
+.signup-t {
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+    color: #fff;
+}
+
+.login{
+    color:#7dbfc6;
+    text-decoration: none;
+}
+
+.login:hover{
+    cursor: pointer;
+    color: #2d2a2b;
+}
+
+.basic {
+    padding: .75em;
+    width: 100%;
+}
+.input-field{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
