@@ -313,6 +313,25 @@ a:focus {
     text-align: left;
 }
 
+/*=======================thank you========================*/
+
+
+.banner-img-t {
+    padding-top: 74.7%;
+    background-image: url(../images/thankyou.gif);
+    background-size: cover;
+}
+
+.t-intro{
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color:#fff;
+    font-size: 35px;
+    margin-top: -12rem
+}
+
+    
 @media only screen and (min-width: 25em) {
     
     .nav li {
@@ -333,6 +352,11 @@ a:focus {
     .center{
         margin-left: 0rem;
     }
+    
+    .t-intro{
+         margin-top: -20rem
+}
+
 }
 @media only screen and (min-width: 38em) {
     .nav{
@@ -390,8 +414,18 @@ a:focus {
     }
     
     .paypal {
-    margin-top: 5rem;
-}
+        margin-top: 5rem;
+    }
+    
+    .thank-you {
+        min-height: 80em;
+    }
+    
+    .t-intro{
+        font-size: 48px;
+         margin-top: -23rem
+    }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -429,6 +463,12 @@ a:focus {
      .center{
         margin-left: 0rem;
     }
+    
+     .t-intro{
+         font-size: 65px;
+         margin-top: -29rem
+    }
+
 }
 
     @media only screen and (min-width: 90em) {
@@ -465,6 +505,12 @@ a:focus {
     .center{
          margin-left: 0rem;
     }
+        
+    .t-intro{
+        font-size: 75px;
+         margin-top: -37rem
+    }
+
     }
 
 @media only screen and (min-width:120em) {
