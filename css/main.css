@@ -305,6 +305,14 @@ a:focus {
     max-width: 45em;
 }
 
+.radio {
+    white-space: nowrap;
+}
+
+.button-s{
+    text-align: left;
+}
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
